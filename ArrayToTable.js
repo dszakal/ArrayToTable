@@ -14,6 +14,8 @@ ArrayToTable.prototype.putTableHtmlToId = function(dataArray, id) {
 };
 
 ArrayToTable.prototype.getHtmlForArray = function(dataArray) {
+    var self = this;
+
     if (Object.keys(dataArray).length === 0) {
         return '';
     }
